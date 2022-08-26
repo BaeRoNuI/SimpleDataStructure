@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04E4D68E53E766EFC0AF0D6F91E58D3B /* Pods-SimpleDataStructure_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8DF76A32C4A7B20F17FD658D38F3F0 /* Pods-SimpleDataStructure_Tests-dummy.m */; };
-		0D79509BB9FA52823693882BE7125BA9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F2CB34A625498EAFC9CDFBA80F8338 /* ReplaceMe.swift */; };
+		0D79509BB9FA52823693882BE7125BA9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F2CB34A625498EAFC9CDFBA80F8338 /* Queue.swift */; };
 		166C46AA65E1C2D9DA67516FC65A8377 /* Pods-SimpleDataStructure_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60061EAA30348317B3FD622C3F12F8D1 /* Pods-SimpleDataStructure_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FF1D410FC70234508EA6A97BA743F9A /* SimpleDataStructure-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4A298A0B8362D9DD0E126336627850 /* SimpleDataStructure-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50C381918D300C226CF025A86FA5E8D4 /* Pods-SimpleDataStructure_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A551C836F0098468ED8E6E17FC7BB3 /* Pods-SimpleDataStructure_Example-dummy.m */; };
@@ -42,7 +42,7 @@
 		25A9BE7745ED9E10F07B11146D92B7AA /* SimpleDataStructure */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleDataStructure; path = SimpleDataStructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26907B5F6CD8999CEBD64507D2236026 /* Pods-SimpleDataStructure_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleDataStructure_Tests-Info.plist"; sourceTree = "<group>"; };
 		28A2EFB6D195B511BF526FF6A4AA7654 /* Pods-SimpleDataStructure_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleDataStructure_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3A30E9815A37E0CA88894C49B19535FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3A30E9815A37E0CA88894C49B19535FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3A7AF5AAC1DD5C74B0868B8D81CA5178 /* SimpleDataStructure-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleDataStructure-prefix.pch"; sourceTree = "<group>"; };
 		3BC593A0FC1F089DDFA4792DE1487E04 /* Pods-SimpleDataStructure_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDataStructure_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E4A298A0B8362D9DD0E126336627850 /* SimpleDataStructure-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleDataStructure-umbrella.h"; sourceTree = "<group>"; };
@@ -55,14 +55,14 @@
 		73510336A6261BF1437A251A4A98FC3F /* Pods-SimpleDataStructure_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleDataStructure_Example-umbrella.h"; sourceTree = "<group>"; };
 		76A551C836F0098468ED8E6E17FC7BB3 /* Pods-SimpleDataStructure_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleDataStructure_Example-dummy.m"; sourceTree = "<group>"; };
 		7738EDA9B427E873A1424FC21F1F8147 /* SimpleDataStructure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleDataStructure.release.xcconfig; sourceTree = "<group>"; };
-		953CC079C1BABB487C1F3D3522C02616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1F2CB34A625498EAFC9CDFBA80F8338 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SimpleDataStructure/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		953CC079C1BABB487C1F3D3522C02616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F2CB34A625498EAFC9CDFBA80F8338 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = SimpleDataStructure/Classes/Queue.swift; sourceTree = "<group>"; };
 		A3DA53415263CCB3D7A812FD3B085369 /* SimpleDataStructure.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleDataStructure.modulemap; sourceTree = "<group>"; };
 		A7EAC449B3E35CC9C8986F91CDB48718 /* Pods-SimpleDataStructure_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDataStructure_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B39815CFC9BEA1998DB343718AF3AC37 /* Pods-SimpleDataStructure_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleDataStructure_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B68C381A003078004698C91023C05ADB /* SimpleDataStructure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleDataStructure.debug.xcconfig; sourceTree = "<group>"; };
-		B95AF8A688D647DD2CF82E2BE76C3630 /* SimpleDataStructure.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SimpleDataStructure.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B95AF8A688D647DD2CF82E2BE76C3630 /* SimpleDataStructure.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SimpleDataStructure.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA8DF76A32C4A7B20F17FD658D38F3F0 /* Pods-SimpleDataStructure_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleDataStructure_Tests-dummy.m"; sourceTree = "<group>"; };
 		BBCAF879EAB3C93FA2464EBB100AD230 /* Pods-SimpleDataStructure_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleDataStructure_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CE23113B4A0EA320689089EDB2974CD5 /* Pods-SimpleDataStructure_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleDataStructure_Example-Info.plist"; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		6863B67DCFCF266423F6131C65B2BE7C /* SimpleDataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				A1F2CB34A625498EAFC9CDFBA80F8338 /* ReplaceMe.swift */,
+				A1F2CB34A625498EAFC9CDFBA80F8338 /* Queue.swift */,
 				F5E3377CAF6CACE8C222BAFA1ED8D182 /* Pod */,
 				D325BB2B14549984EAAB53F60CF4B0CB /* Support Files */,
 			);
@@ -367,7 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D79509BB9FA52823693882BE7125BA9 /* ReplaceMe.swift in Sources */,
+				0D79509BB9FA52823693882BE7125BA9 /* Queue.swift in Sources */,
 				BEA2DAB4D1FAF54605936F8A973C9C42 /* SimpleDataStructure-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,8 +526,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

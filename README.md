@@ -22,7 +22,7 @@ pod 'SimpleDataStructure'
 
 ## Author
 
-xogh20321@gmail.com, xogh20321@gmail.com
+xogh20321@gmail.com
 
 ## License
 

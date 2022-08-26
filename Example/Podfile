@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SimpleDataStructure_Example' do
+  pod 'SimpleDataStructure', :path => '../'
+
+  target 'SimpleDataStructure_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

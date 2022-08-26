@@ -7,7 +7,7 @@ open class Queue<T> {
 	private let _lock: NSLock
 	private let isThreadSafe: Bool
 	
-	init(withLock: Bool = false) {
+	public init(withLock: Bool = false) {
 		self.headArray = []
 		self.tailArray = []
 		self._lock = NSLock()

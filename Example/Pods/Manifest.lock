@@ -1,0 +1,16 @@
+PODS:
+  - SimpleDataStructure (0.1.0)
+
+DEPENDENCIES:
+  - SimpleDataStructure (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleDataStructure:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleDataStructure: 47c3f7268a6826f4eb393ecd4ecbffd98199a760
+
+PODFILE CHECKSUM: f0e11ed24edfe83ece3ac25192e334e340285b84
+
+COCOAPODS: 1.11.2

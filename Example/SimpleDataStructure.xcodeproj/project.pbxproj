@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1180214EBFCC451681CF859B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1D9B4D40CF102468DB7B5940 /* SimpleDataStructure.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleDataStructure.podspec; path = ../SimpleDataStructure.podspec; sourceTree = "<group>"; };
+		1180214EBFCC451681CF859B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1D9B4D40CF102468DB7B5940 /* SimpleDataStructure.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleDataStructure.podspec; path = ../SimpleDataStructure.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		471416451F8BEAD9534E3AAD /* Pods-SimpleDataStructure_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDataStructure_Example.release.xcconfig"; path = "Target Support Files/Pods-SimpleDataStructure_Example/Pods-SimpleDataStructure_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SimpleDataStructure_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDataStructure_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		980A7AD4DAE4D31B64700913 /* Pods_SimpleDataStructure_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleDataStructure_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A093B3013F52E80B7B51ABC3 /* Pods-SimpleDataStructure_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDataStructure_Example.debug.xcconfig"; path = "Target Support Files/Pods-SimpleDataStructure_Example/Pods-SimpleDataStructure_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA9F9610F511DC36AF3F3B0C /* Pods_SimpleDataStructure_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleDataStructure_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D28D55808480852176E87567 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D28D55808480852176E87567 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				91E91A57DED17F1D2C14F409 /* Pods-SimpleDataStructure_Tests.debug.xcconfig */,
 				646F049A8B653530CE5F3C12 /* Pods-SimpleDataStructure_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -484,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

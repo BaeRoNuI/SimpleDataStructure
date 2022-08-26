@@ -1,0 +1,6 @@
+framework module SimpleDataStructure {
+  umbrella header "SimpleDataStructure-umbrella.h"
+
+  export *
+  module * { export * }
+}

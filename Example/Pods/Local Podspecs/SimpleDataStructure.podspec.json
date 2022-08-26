@@ -1,0 +1,22 @@
+{
+  "name": "SimpleDataStructure",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleDataStructure.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xogh20321@gmail.com/SimpleDataStructure",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xogh20321@gmail.com": "xogh20321@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xogh20321@gmail.com/SimpleDataStructure.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SimpleDataStructure/Classes/**/*"
+}
